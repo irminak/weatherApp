@@ -16,7 +16,7 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
+    width: 400px;
     height: 700px;
     border-radius: 12px;
     text-align: center;
@@ -62,7 +62,7 @@ button {
 }
 .weather-image {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .weather-temp {
