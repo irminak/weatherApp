@@ -10,8 +10,8 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 414px;
-    height: 896px;
+    width: 300px;
+    height: 600px;
     border-radius: 12px;
     text-align: center;
     background: rgb(85, 148, 179);
