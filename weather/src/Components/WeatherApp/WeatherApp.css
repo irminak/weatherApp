@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+
+html {
+    color: white;
+    font-family: Poppins, sans-serif;
+}
 
 .container {
     position: absolute;
@@ -8,6 +13,7 @@
     width: 414px;
     height: 896px;
     border-radius: 12px;
+    text-align: center;
     background: rgb(85, 148, 179);
     background: linear-gradient(
         180deg,
@@ -21,7 +27,7 @@
     margin: 0 auto;
     padding: 0 20px;
     border-radius: 12px;
-    width: 50%;
+    width: 70%;
     height: 40px;
     align-items: center;
     gap: 14px;
@@ -42,4 +48,35 @@
     font-size: 20px;
     letter-spacing: 1px;
     font-family: Poppins, sans-serif;
+}
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.weather-image {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.weather-temp {
+    font-size: 100px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+.weather-location {
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.data-container {
+    display: flex;
+    margin-top: 50px;
+    padding: 0 40px;
+    justify-content: space-around;
+}
+.data {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
 }
